@@ -1,0 +1,184 @@
+{
+    "1990": {
+        "duration_estimated": 30011073.662830155,
+        "duration_known": 28281853.0,
+        "releases_count": 23366,
+        "tracks_count": 124071,
+        "tracks_unknown_duration_count": 7586
+    },
+    "1991": {
+        "duration_estimated": 34003750.88026134,
+        "duration_known": 32256844.0,
+        "releases_count": 21763,
+        "tracks_count": 140815,
+        "tracks_unknown_duration_count": 7626
+    },
+    "1992": {
+        "duration_estimated": 39695248.805420816,
+        "duration_known": 37823545.0,
+        "releases_count": 23371,
+        "tracks_count": 164514,
+        "tracks_unknown_duration_count": 8141
+    },
+    "1993": {
+        "duration_estimated": 45146610.70493248,
+        "duration_known": 42921535.0,
+        "releases_count": 25719,
+        "tracks_count": 186032,
+        "tracks_unknown_duration_count": 9644
+    },
+    "1994": {
+        "duration_estimated": 51624934.29709673,
+        "duration_known": 48831530.0,
+        "releases_count": 28872,
+        "tracks_count": 210349,
+        "tracks_unknown_duration_count": 12033
+    },
+    "1995": {
+        "duration_estimated": 57241022.11315688,
+        "duration_known": 53690837.0,
+        "releases_count": 30768,
+        "tracks_count": 234957,
+        "tracks_unknown_duration_count": 15536
+    },
+    "1996": {
+        "duration_estimated": 58991282.93976921,
+        "duration_known": 55286127.0,
+        "releases_count": 30849,
+        "tracks_count": 242816,
+        "tracks_unknown_duration_count": 16273
+    },
+    "1997": {
+        "duration_estimated": 61420059.61808805,
+        "duration_known": 57679360.0,
+        "releases_count": 31432,
+        "tracks_count": 251105,
+        "tracks_unknown_duration_count": 16285
+    },
+    "1998": {
+        "duration_estimated": 62193976.98599369,
+        "duration_known": 58446503.0,
+        "releases_count": 31433,
+        "tracks_count": 254671,
+        "tracks_unknown_duration_count": 16329
+    },
+    "1999": {
+        "duration_estimated": 66845315.042358324,
+        "duration_known": 62415178.0,
+        "releases_count": 33205,
+        "tracks_count": 277112,
+        "tracks_unknown_duration_count": 19669
+    },
+    "2000": {
+        "duration_estimated": 67601197.45651491,
+        "duration_known": 62986983.0,
+        "releases_count": 33654,
+        "tracks_count": 280234,
+        "tracks_unknown_duration_count": 20529
+    },
+    "2001": {
+        "duration_estimated": 69461924.45902002,
+        "duration_known": 64432299.0,
+        "releases_count": 34452,
+        "tracks_count": 285432,
+        "tracks_unknown_duration_count": 22281
+    },
+    "2002": {
+        "duration_estimated": 68485398.38045034,
+        "duration_known": 63933060.0,
+        "releases_count": 34009,
+        "tracks_count": 284363,
+        "tracks_unknown_duration_count": 20248
+    },
+    "2003": {
+        "duration_estimated": 69096541.40062994,
+        "duration_known": 63874192.0,
+        "releases_count": 34251,
+        "tracks_count": 286057,
+        "tracks_unknown_duration_count": 23388
+    },
+    "2004": {
+        "duration_estimated": 72406308.77163243,
+        "duration_known": 66799717.0,
+        "releases_count": 33569,
+        "tracks_count": 315198,
+        "tracks_unknown_duration_count": 26455
+    },
+    "2005": {
+        "duration_estimated": 71662515.99214444,
+        "duration_known": 65765263.0,
+        "releases_count": 32680,
+        "tracks_count": 305516,
+        "tracks_unknown_duration_count": 27396
+    },
+    "2006": {
+        "duration_estimated": 69213965.0695215,
+        "duration_known": 63314038.0,
+        "releases_count": 30649,
+        "tracks_count": 279712,
+        "tracks_unknown_duration_count": 26065
+    },
+    "2007": {
+        "duration_estimated": 66623069.56347542,
+        "duration_known": 60927981.0,
+        "releases_count": 29203,
+        "tracks_count": 274177,
+        "tracks_unknown_duration_count": 25628
+    },
+    "2008": {
+        "duration_estimated": 60433490.64103223,
+        "duration_known": 54459786.0,
+        "releases_count": 28584,
+        "tracks_count": 252967,
+        "tracks_unknown_duration_count": 27748
+    },
+    "2009": {
+        "duration_estimated": 52961645.85682178,
+        "duration_known": 47354421.0,
+        "releases_count": 24501,
+        "tracks_count": 217575,
+        "tracks_unknown_duration_count": 25763
+    },
+    "2010": {
+        "duration_estimated": 43344513.583372675,
+        "duration_known": 38404348.0,
+        "releases_count": 20912,
+        "tracks_count": 182158,
+        "tracks_unknown_duration_count": 23432
+    },
+    "2011": {
+        "duration_estimated": 37388500.80576636,
+        "duration_known": 32854905.0,
+        "releases_count": 17724,
+        "tracks_count": 150875,
+        "tracks_unknown_duration_count": 20819
+    },
+    "2012": {
+        "duration_estimated": 31107374.947636746,
+        "duration_known": 27519298.0,
+        "releases_count": 16046,
+        "tracks_count": 125928,
+        "tracks_unknown_duration_count": 16419
+    },
+    "2013": {
+        "duration_estimated": 26107417.416810993,
+        "duration_known": 23312506.0,
+        "releases_count": 13747,
+        "tracks_count": 106240,
+        "tracks_unknown_duration_count": 12737
+    },
+    "2014": {
+        "duration_estimated": 18740558.698124558,
+        "duration_known": 16946646.0,
+        "releases_count": 11457,
+        "tracks_count": 76462,
+        "tracks_unknown_duration_count": 8094
+    },
+    "TOTAL": {
+        "duration_estimated": 1331807698.0928621,
+        "duration_known": 1230518755.0,
+        "releases_count": 676216,
+        "tracks_count": 5509336,
+        "tracks_unknown_duration_count": 456124
+    }
+}

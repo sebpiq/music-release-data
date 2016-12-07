@@ -1,0 +1,46 @@
+.svgContainer {
+  width: 70%;
+  margin: auto;
+}
+
+svg.musicAbundance {
+  position: initial;
+  background-color: #444;
+  width: 100%;  
+}
+
+svg.musicAbundance text {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+svg.musicAbundance .discogs {
+  fill: #f6ff5f;
+  stroke: #f6ff5f;
+}
+
+svg.musicAbundance .musicbrainz {
+  fill: #7ca1ff;
+  stroke: #7ca1ff;
+}
+
+svg.musicAbundance path.curve {
+  stroke-width: 4px;
+}
+
+svg.musicAbundance path.axis {
+  stroke: #777;
+}
+
+svg.musicAbundance g.axisLabel {
+  fill: #999;
+  font-size: 25px;
+}
+
+svg.musicAbundance .tooltip .bg {
+  fill: #474747;
+  stroke: #111;
+}
+
+svg.musicAbundance g.value {
+  cursor: pointer;
+}
