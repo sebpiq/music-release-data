@@ -18497,7 +18497,7 @@ exports.plotSeries = function(svgElem, dataSources, axisLabels) {
         _.forEach(point.label, function(str, i) {
           label.append('tspan')
             .attr('x', 0)
-            .attr('dy', '' + i + 'em')
+            .attr('dy', '' + (i * 1.5) + 'em')
             .text('' + str)
         })
 

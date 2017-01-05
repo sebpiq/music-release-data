@@ -21,7 +21,7 @@ class CompiledData(object):
             'duration_estimated': duration_estimated,
             'tracks_count': raw_data['total_tracks'],
             'tracks_unknown_duration_count': raw_data['tracks_unknown_duration'],
-            'releases_count': len(set(raw_data['releases_ids']))
+            'releases_count': raw_data['total_releases']
         }
 
     def compile(self):

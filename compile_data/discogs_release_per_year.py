@@ -46,7 +46,7 @@ def _parse_duration(duration):
 
 
 if __name__ == '__main__':
-    year_int = 2014
+    year_int = 2010
     while year_int <= 2014:
         year = str(year_int)
 
@@ -54,14 +54,14 @@ if __name__ == '__main__':
         seen_releases = { 
             'total_tracks': 0, 
             'total_seconds': 0,
+            'total_releases'; 0,
             'tracks_unknown_duration': 0,
-            'releases_ids': []
+            'releases_ids': [], # This list is used for not counting same releases twice 
         }
         
         if os.path.exists(json_path):
             with open(json_path, 'r') as fd:
                 seen_releases = json.loads(fd.read())
-        print(len(set(seen_releases['releases_ids'])), len(seen_releases['releases_ids']))
 
         def _backup_results():
             with open(json_path, 'w') as fd:
@@ -71,9 +71,21 @@ if __name__ == '__main__':
             for i, current_release in enumerate(iter_releases(year)):
 
                 if current_release['id'] in seen_releases['releases_ids']: continue
+                seen_releases['releases_ids'].append(current_release['id'])
+
+                # Filter out compilations
+                if 'Compilation' in current_release['format'] or 'compilation' in current_release['format']:
+                    continue
+
+                # Get the detailed info about the release
                 current_release = common.safe_get(
                     current_release['resource_url'], { 'user-agent': '%s-%s' % ('sebpiq', token) })
 
+                # Filter out "Various" artist
+                if len(current_release['artists']) == 1 and current_release['artists'][0]['id'] == 194:
+                    continue
+
+                seen_releases['total_releases'] += 1
                 seen_releases['total_tracks'] += len(current_release['tracklist'])
                 for track in current_release['tracklist']:
                     if track.get('duration', None):
@@ -83,7 +95,6 @@ if __name__ == '__main__':
                             print(err)
                             seen_releases['tracks_unknown_duration'] += 1  
                     else: seen_releases['tracks_unknown_duration'] += 1
-                seen_releases['releases_ids'].append(current_release['id'])
 
                 common.print_progress('year %s, %s seen, total tracks %s                ' 
                     % (year, len(seen_releases['releases_ids']), seen_releases['total_tracks']))
