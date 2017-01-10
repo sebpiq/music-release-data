@@ -46,7 +46,7 @@ def _parse_duration(duration):
 
 
 if __name__ == '__main__':
-    year_int = 2010
+    year_int = 1900
     while year_int <= 2014:
         year = str(year_int)
 
@@ -54,7 +54,7 @@ if __name__ == '__main__':
         seen_releases = { 
             'total_tracks': 0, 
             'total_seconds': 0,
-            'total_releases'; 0,
+            'total_releases': 0,
             'tracks_unknown_duration': 0,
             'releases_ids': [], # This list is used for not counting same releases twice 
         }
