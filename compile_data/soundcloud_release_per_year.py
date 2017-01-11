@@ -62,5 +62,5 @@ for year in range(2006, 2017):
             seen_releases['last_ids'] = seen_releases['last_ids'][2000:]
         _backup_results()
 
-        common.print_progress('year %s | duration %s \t\t\t | tracks %s                ' 
-            % (year, seen_releases['total_duration'], seen_releases['total_tracks']))
+        common.print_progress('year %s | duration %s \t\t\t | tracks %s \t\t\t | date %s               ' 
+            % (year, seen_releases['total_duration'], seen_releases['total_tracks'], seen_releases['last_date']))
