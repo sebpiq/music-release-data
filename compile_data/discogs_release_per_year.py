@@ -93,11 +93,9 @@ if __name__ == '__main__':
                             seen_releases['total_seconds'] += _parse_duration(track['duration'])
                         except ValueError as err:
                             print(err)
-                            print(current_release)
                             seen_releases['tracks_unknown_duration'] += 1  
                     else: 
                         print('no duration for track')
-                        print(current_release)
                         seen_releases['tracks_unknown_duration'] += 1
 
                 common.print_progress('year %s, %s seen, total tracks %s                ' 
