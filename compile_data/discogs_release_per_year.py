@@ -46,7 +46,7 @@ def _parse_duration(duration):
 
 
 if __name__ == '__main__':
-    year_int = 1900
+    year_int = 1990
     while year_int <= 2014:
         year = str(year_int)
 

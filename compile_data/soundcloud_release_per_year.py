@@ -10,12 +10,12 @@ def _make_url(date_start, date_end):
     query['client_id'] = settings.soundcloud_client_id
     query['created_at[from]'] = date_start 
     query['created_at[to]'] = date_end
-    query['limit'] = 51
+    query['limit'] = 200
     return ( 'https://api.soundcloud.com/tracks.json?%s' 
         % '&'.join(['%s=%s' % (k, v) for k, v in query.items()]) )
 
 
-for year in range(2006, 2017):
+for year in range(2016, 2017):
     print('starting year %s' % year)
     json_path = os.path.join(common.data_folder, '%s-soundcloud.json' % year)
 
@@ -58,8 +58,8 @@ for year in range(2006, 2017):
             seen_releases['last_ids'].append(track_dict['id'])
 
         seen_releases['last_date'] = results[-1]['created_at']
-        if len(seen_releases['last_ids']) > 2000:
-            seen_releases['last_ids'] = seen_releases['last_ids'][2000:]
+        if len(seen_releases['last_ids']) > 10000:
+            seen_releases['last_ids'] = seen_releases['last_ids'][10000:]
         _backup_results()
 
         common.print_progress('year %s | duration %s \t\t\t | tracks %s \t\t\t | date %s               ' 
